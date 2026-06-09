@@ -44,7 +44,7 @@ BEGIN
 		PRINT '>>Truncating Table: silver.crm_cust_info';
 
 		IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL 
-			TRUNCATE TABLE silvere.crm_cust_info;
+			TRUNCATE TABLE silver.crm_cust_info;
 	
 		PRINT '>>Inserting Data into: silver.crm_cust_info';
 
